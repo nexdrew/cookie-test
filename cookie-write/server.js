@@ -129,7 +129,7 @@ function main () {
   server.post('/nix', (req, res, next) => {
     log('POST /nix')
     // remove region cookie
-    const regionCookie = serializeCookie(config.cookieNameRegion, '', { maxAge: 0 })
+    const regionCookie = serializeCookie(config.cookieNameRegion, '', { maxAge: 0, domain: config.domain })
     res.header('set-cookie', regionCookie)
     // redirect back to GET index
     sendRedirect(res, next)
