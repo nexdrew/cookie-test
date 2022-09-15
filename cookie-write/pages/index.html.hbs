@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>{{region}} App</title>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="initial-scale=1.0, width=device-width"/>
+  </head>
+  <body>
+    <div>
+      <h1>{{region}} App</h1>
+    </div>
+    <div>
+      <p>Your session cookie value: {{sessionCookie}}</p>
+    </div>
+    <div>
+      <p>Your region cookie value: {{regionCookie}}</p>
+    </div>
+    <hr/>
+    <div>
+      <form method="POST" action="/signin">
+        <button type="submit">Mimic login</button>
+      </form>
+    </div>
+    <hr/>
+    <div>
+      <form method="POST" action="/signout">
+        <button type="submit">Mimic logout</button>
+      </form>
+    </div>
+    <hr/>
+    <div>
+      <form method="POST" action="/nix">
+        <button type="submit">Remove region cookie</button>
+      </form>
+    </div>
+    <hr/>
+    <div>
+      <a href="{{domainLink}}">Go to root domain</a>
+    </div>
+  </body>
+</html>

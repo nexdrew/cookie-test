@@ -1,0 +1,28 @@
+{
+  "name": "@nexdrew/cookie-write",
+  "version": "0.1.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "standard"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nexdrew/cookie-test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nexdrew/cookie-test/issues"
+  },
+  "homepage": "https://github.com/nexdrew/cookie-test#readme",
+  "dependencies": {
+    "cookie": "^0.5.0",
+    "cookie-signature": "^1.2.0",
+    "handlebars": "^4.7.7",
+    "restify": "^8.6.1"
+  },
+  "devDependencies": {
+    "standard": "^17.0.0"
+  }
+}
