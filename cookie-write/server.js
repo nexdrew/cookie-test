@@ -144,5 +144,5 @@ function main () {
 }
 
 if (require.main === module) {
-  main().then(port => log(`Listening on ${port}`))
+  main().then(port => log(`Write app listening on ${port}`))
 }
